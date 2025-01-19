@@ -1,11 +1,11 @@
-package com.backend.challengeconversormonedas.external;
+package main.java.com.backend.challengeconversormonedas.external;
 
-import com.backend.challengeconversormonedas.config.ConfigLoader;
-import com.backend.challengeconversormonedas.exception.FailRequestException;
-import com.backend.challengeconversormonedas.entity.ExchangeRateEX;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import main.java.com.backend.challengeconversormonedas.config.ConfigLoader;
+import main.java.com.backend.challengeconversormonedas.entity.ExchangeRateEX;
+import main.java.com.backend.challengeconversormonedas.exception.FailRequestException;
 
 import java.net.URI;
 import java.net.http.HttpClient;

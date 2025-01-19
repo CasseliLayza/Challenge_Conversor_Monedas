@@ -1,4 +1,4 @@
-package com.backend.challengeconversormonedas.exception;
+package main.java.com.backend.challengeconversormonedas.exception;
 
 public class failLoadConfigurationException extends RuntimeException {
 

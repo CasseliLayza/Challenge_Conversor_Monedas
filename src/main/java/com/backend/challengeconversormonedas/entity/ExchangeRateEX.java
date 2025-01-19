@@ -1,4 +1,4 @@
-package com.backend.challengeconversormonedas.entity;
+package main.java.com.backend.challengeconversormonedas.entity;
 
 public record ExchangeRateEX(String result,
                              String baseCode,

@@ -1,6 +1,6 @@
-package com.backend.challengeconversormonedas.service;
+package main.java.com.backend.challengeconversormonedas.service;
 
-import com.backend.challengeconversormonedas.entity.ExchangeRate;
+import main.java.com.backend.challengeconversormonedas.entity.ExchangeRate;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public class GeneratorHistoryFile {
 
-    private static final String FILE_PATH = "src/com/backend/challengeconversormonedas/storage/ConversionsHistory.json";
+    private static final String FILE_PATH = "src/main/java/com/backend/challengeconversormonedas/storage/ConversionsHistory.json";
 
     public static void saveJson(ExchangeRate exchangeRate) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

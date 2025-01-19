@@ -1,9 +1,9 @@
-package com.backend.challengeconversormonedas.application;
+package main.java.com.backend.challengeconversormonedas.application;
 
-import com.backend.challengeconversormonedas.external.RequestCurrencyConverter;
-import com.backend.challengeconversormonedas.entity.ExchangeRate;
-import com.backend.challengeconversormonedas.entity.ExchangeRateEX;
-import com.backend.challengeconversormonedas.service.GeratorConversionHistory;
+import main.java.com.backend.challengeconversormonedas.external.RequestCurrencyConverter;
+import main.java.com.backend.challengeconversormonedas.entity.ExchangeRate;
+import main.java.com.backend.challengeconversormonedas.entity.ExchangeRateEX;
+import main.java.com.backend.challengeconversormonedas.service.GeratorConversionHistory;
 
 import java.util.Scanner;
 
@@ -64,7 +64,7 @@ public class ChallengeConversorMonedasApplication {
                 }
                 case 9 -> {
                     System.out.println("Histórico de conversiones por fecha:");
-                    System.out.println( GeratorConversionHistory.conversiones+ "\n");
+                    System.out.println(GeratorConversionHistory.conversiones + "\n");
                 }
                 case 0 -> System.out.println("Saliendo del sistema...");
                 default -> System.out.println("Opcion incorrecta. Intente nuevamente.\n");
@@ -78,6 +78,7 @@ public class ChallengeConversorMonedasApplication {
         }
         inputData.close();
     }
+
     private static void printMenu() {
         System.out.println("""
                 *****************************************************
@@ -99,6 +100,7 @@ public class ChallengeConversorMonedasApplication {
                 *****************************************************
                 """);
     }
+
     private static void runProcessing(RequestCurrencyConverter requestCurrency, String baseCurrency, String
             targetCurrency, double amount) {
         ExchangeRateEX conversionRateEX = requestCurrency.requestConverter(baseCurrency, targetCurrency, amount);

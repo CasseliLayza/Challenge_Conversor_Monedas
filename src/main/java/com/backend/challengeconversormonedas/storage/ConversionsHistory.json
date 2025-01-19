@@ -618,5 +618,125 @@
     "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
     "amountToConver": 20.0,
     "creationDate": "Jan 19, 2025, 12:14:07 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 2:03:40 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.77,
+    "conversionResult": 18.85,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 2:03:45 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "COP",
+    "conversionRate": 4291.7345,
+    "conversionResult": 8583.469,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 2.0,
+    "creationDate": "Jan 19, 2025, 2:03:56 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 2:14:09 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 6267.0,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 6.0,
+    "creationDate": "Jan 19, 2025, 2:15:58 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 7311.5,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 7.0,
+    "creationDate": "Jan 19, 2025, 2:16:03 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "COP",
+    "conversionRate": 4291.7345,
+    "conversionResult": 85834.69,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 20.0,
+    "creationDate": "Jan 19, 2025, 2:16:12 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.77,
+    "conversionResult": 18.85,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 2:16:18 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 2:22:07 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "COP",
+    "conversionRate": 4291.7345,
+    "conversionResult": 85834.69,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 20.0,
+    "creationDate": "Jan 19, 2025, 2:22:24 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.77,
+    "conversionResult": 18.85,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 2:22:36 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "PEN",
+    "targetCode": "USD",
+    "conversionRate": 0.2661,
+    "conversionResult": 4.7898,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 18.0,
+    "creationDate": "Jan 19, 2025, 2:22:42 PM"
   }
 ]
