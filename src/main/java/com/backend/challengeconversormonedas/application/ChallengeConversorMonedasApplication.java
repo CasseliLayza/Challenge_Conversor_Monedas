@@ -72,7 +72,13 @@ public class ChallengeConversorMonedasApplication {
 
             if (optionSelect > 0 && optionSelect < 9) {
                 System.out.println("Ingrese el valor que deseas convertir:");
-                amount = inputData.nextDouble();
+                try {
+                    amount = inputData.nextDouble();
+                } catch (Exception e) {
+                    System.out.println("Intente nuevamente. Ingresando una cantidad valida!\n");
+                    inputData.nextLine();
+                    continue;
+                }
                 runProcessing(requestCurrency, baseCurrency, targetCurrency, amount);
             }
         }
