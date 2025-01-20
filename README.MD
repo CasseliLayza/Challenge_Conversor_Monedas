@@ -10,7 +10,15 @@ Este proyecto forma parte del desafío de especialización en Java Backend Devel
 
 ## Descripción
 
-El programa ofrece un menú interactivo donde el usuario puede seleccionar entre varias opciones para convertir entre monedas. Además, el sistema guarda el historial de conversiones y permite al usuario consultarlo.
+El programa ofrece un menú interactivo donde el usuario puede seleccionar entre varias opciones para convertir entre monedas. Además, el sistema **_Guarda/Exporta_** el historial de conversiones por _fecha_ y permite al usuario consultarlo.
+
+### Funcionalidades Principales;
+
+- El usuario puede elegir entre varias conversiones de monedas.
+- El historial de conversiones se guarda y puede ser consultado desde el menú.
+- Se utiliza una API externa para obtener las tasas de cambio en tiempo real.
+- Gestión de configuraciones mediante un archivo `application.properties`.
+- Registro histórico de conversiones en un archivo `JSON`.
 
 ### Monedas disponibles para conversión:
 
@@ -20,9 +28,10 @@ El programa ofrece un menú interactivo donde el usuario puede seleccionar entre
 - Peso Colombiano (COP)
 - Nuevo Sol Peruano (PEN)
 
-## Requisitos
+### Requisitos
 
 - Java 11 o superior.
+- Conexión a internet para consumir el API ExchangeRate-API.
 - Una variable de entorno `API_KEY` configurada para acceder a la API de tasas de cambio.
 
 ## Instalación
@@ -35,13 +44,13 @@ git clone https://github.com/CasseliLayza/Challenge_Conversor_Monedas.git
 
 ## Configuración
 
-1. **Consumo API**: Configura tu apiKey directamente en el archivo `application.properties` o agregala como variable de entornno en tu IDE.
+1. **Consumo API**: Configura tu 'apiKey' directamente en el archivo `application.properties` o agregala como variable de entornno en tu IDE.
 
    ```properties
    java.security.apikey=${API_KEY}
    ```
 
-### Uso
+## Uso
 
 - Para ejecutar la aplicación, simplemente ejecuta el archivo ChallengeConversorMonedasApplication.java desde tu IDE o línea de comandos.
 
@@ -52,26 +61,29 @@ java main.java.com.backend.challengeconversormonedas.application.ChallengeConver
 
 ### Menú de opciones:
 
-1. Dólar => Peso Argentino (USD => ARS)
-2. Peso Argentino => Dólar (ARS => USD)
-3. Dólar => Real Brasileño (USD => BRL)
-4. Real Brasileño => Dólar (BRL => USD)
-5. Dólar => Peso Colombiano (USD => COP)
-6. Peso Colombiano => Dólar (COP => USD)
-7. Dólar => Nuevo Sol Peruano (USD => PEN)
-8. Nuevo Sol Peruano => Dólar (PEN => USD)
-9. Mostrar histórico de conversiones
-0. Salir
-
-### Funcionalidades
-
-- El usuario puede elegir entre varias conversiones de monedas.
-- El historial de conversiones se guarda y puede ser consultado desde el menú.
-- Se utiliza una API externa para obtener las tasas de cambio en tiempo real.
-
-### Estructura del Proyecto
-
 ```css
+*****************************************************
+Sea bienbenido/a al Conversor de Monedas =]
+
+1) Dolar =>> Peso Argentino
+2) Peso Argentino =>> Dolar
+3) Dolar =>> Real Brasileño
+4) Real Brasileño =>> Dolar
+5) Dolar =>> Peso Colombiano
+6) Peso Colombiano =>> Dolar
+7) Dolar =>> NuevoSol Peruano
+8) NuevoSol Peruano =>> Dolar
+
+9) Mostrar historico de conversiones
+0) salir
+=>> Elija una opcion valida
+
+*****************************************************
+```
+
+## Estructura del Proyecto
+
+```java
 ├── src
 │   └── main
 │       ├── java
@@ -102,10 +114,49 @@ java main.java.com.backend.challengeconversormonedas.application.ChallengeConver
 │               └── img
 ├── README.md
 
-
 ```
 
-### Contribuir
+### Descripción de carpetas y archivos
+
+1.  _application_: Contiene la clase principal que inicia la aplicación.
+
+        ChallengeConversorMonedasApplication.java: Clase principal que ejecuta el menú interactivo.
+
+2.  _config_: Carga las configuraciones del archivo application.properties.
+
+             ConfigLoader.java: Carga las propiedades y variables de entorno.
+
+3.  _entity_: Define las clases para modelar las entidades relacionadas con las conversiones.
+
+        ExchangeRate.java: Modelo de tasa de cambio.
+        ExchangeRateEX.java: Modelo extendido con resultados de conversión.
+
+4.  _exception_: Maneja excepciones personalizadas.
+
+            FailLoadConfigurationException.java: Error al cargar configuraciones.
+            FailRequestException.java: Error en la solicitud externa.
+            FileSaveException.java: Error al guardar el archivo de historial.
+
+5.  _external_: Lógica para consumir el API externo.
+
+            RequestCurrencyConverter.java: Realiza solicitudes al API de ExchangeRate.
+
+6.  _service_: Servicios para manejar lógica de negocio y archivos.
+
+        GeneratorConversionHistory.java: Gestiona el historial de conversiones en memoria.
+        GeneratorHistoryFile.java: Guarda el historial en un archivo JSON.
+
+7.  _storage_: Almacena archivos persistentes.
+
+        ConversionsHistory.json: Archivo con el historial de conversiones.
+
+8.  _resources_: Almacena configuraciones y recursos estáticos.
+
+        application.properties: Configuración de la aplicación.
+
+9.  _assets/img_: Almacena imágenes para la documentación y branding.
+
+## Contribuir
 
 - Realiza un fork de este repositorio.
 - Crea tu nueva rama (git checkout -b feature/nueva-caracteristica).
@@ -113,9 +164,34 @@ java main.java.com.backend.challengeconversormonedas.application.ChallengeConver
 - Haz push a tu rama (git push origin feature/nueva-caracteristica).
 - Abre un pull request.
 
-### Licencia
+## Licencia
 
-- Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+- Licencia MIT
+
+  ```markdown
+  Este proyecto está licenciado bajo la Licencia MIT.  
+  Consulta el archivo LICENSE para más detalles.
+  ```
+
+- Licencia [LICENSE](LICENSE)
+
+## Derechos Reservados
+
+- Sobre los derechos reservados si es aplicable.
+
+  ```markdown
+  © 2024 Casseli L CodeCloudNet. Todos los derechos reservados.  
+  Este proyecto está protegido por las leyes de derechos de autor y no puede ser reproducido, distribuido ni utilizado sin autorización previa.
+  ```
+
+## Créditos
+
+- Desarrollado como parte del desafío de especialización **Java Backend Developer** by [**Caseli Layza**](mailto:casseli.layza@gmail.com).
+  Inspirado en la necesidad de manejar conversiones de monedas y registrar un historial de las mismas.
+
+- 📧 **Correo:** [Caseli Layza](mailto:casseli.layza@gmail.com)
+
+_**¡Gracias por revisar este proyecto!.. Powered by Casse💖**_ 😊
 
 ```go
 

@@ -828,5 +828,145 @@
     "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
     "amountToConver": 12.0,
     "creationDate": "Jan 19, 2025, 4:14:29 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.77,
+    "conversionResult": 18.85,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 5:25:27 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "ARS",
+    "targetCode": "USD",
+    "conversionRate": 9.574E-4,
+    "conversionResult": 0.0172332,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 18.0,
+    "creationDate": "Jan 19, 2025, 5:25:51 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "PEN",
+    "targetCode": "USD",
+    "conversionRate": 0.2661,
+    "conversionResult": 4.7898,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 18.0,
+    "creationDate": "Jan 19, 2025, 5:26:04 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 5:46:09 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.77,
+    "conversionResult": 18.85,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 5:46:35 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "PEN",
+    "targetCode": "USD",
+    "conversionRate": 0.2661,
+    "conversionResult": 4.7898,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 18.0,
+    "creationDate": "Jan 19, 2025, 5:46:44 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 5:53:33 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.77,
+    "conversionResult": 18.85,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 5:53:42 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "PEN",
+    "targetCode": "USD",
+    "conversionRate": 0.2661,
+    "conversionResult": 5.015985,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 18.85,
+    "creationDate": "Jan 19, 2025, 5:53:56 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "COP",
+    "targetCode": "USD",
+    "conversionRate": 2.3301E-4,
+    "conversionResult": 0.046602,
+    "timeLastUpdateUtc": "Sun, 19 Jan 2025 00:00:01 +0000",
+    "amountToConver": 200.0,
+    "creationDate": "Jan 19, 2025, 5:54:31 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 7:53:17 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.7601,
+    "conversionResult": 18.8005,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 7:53:25 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "PEN",
+    "targetCode": "USD",
+    "conversionRate": 0.2666,
+    "conversionResult": 4.7988,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 18.0,
+    "creationDate": "Jan 19, 2025, 7:53:31 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.7601,
+    "conversionResult": 18.8005,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 7:54:09 PM"
   }
 ]
