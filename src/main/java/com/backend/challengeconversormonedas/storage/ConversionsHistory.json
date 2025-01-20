@@ -968,5 +968,35 @@
     "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
     "amountToConver": 5.0,
     "creationDate": "Jan 19, 2025, 7:54:09 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "ARS",
+    "conversionRate": 1044.5,
+    "conversionResult": 5222.5,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 8:27:41 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "USD",
+    "targetCode": "PEN",
+    "conversionRate": 3.7601,
+    "conversionResult": 18.8005,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 5.0,
+    "creationDate": "Jan 19, 2025, 8:27:47 PM"
+  },
+  {
+    "result": "success",
+    "baseCode": "PEN",
+    "targetCode": "USD",
+    "conversionRate": 0.2666,
+    "conversionResult": 4.7988,
+    "timeLastUpdateUtc": "Mon, 20 Jan 2025 00:00:02 +0000",
+    "amountToConver": 18.0,
+    "creationDate": "Jan 19, 2025, 8:27:52 PM"
   }
 ]

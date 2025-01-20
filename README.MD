@@ -12,7 +12,7 @@ Este proyecto forma parte del desafío de especialización en Java Backend Devel
 
 El programa ofrece un menú interactivo donde el usuario puede seleccionar entre varias opciones para convertir entre monedas. Además, el sistema **_Guarda/Exporta_** el historial de conversiones por _fecha_ y permite al usuario consultarlo.
 
-### Funcionalidades Principales;
+### Funcionalidades Principales:
 
 - El usuario puede elegir entre varias conversiones de monedas.
 - El historial de conversiones se guarda y puede ser consultado desde el menú.
@@ -42,12 +42,28 @@ El programa ofrece un menú interactivo donde el usuario puede seleccionar entre
 git clone https://github.com/CasseliLayza/Challenge_Conversor_Monedas.git
 ```
 
-## Configuración
+## Configuración del Proyecto:
 
-1. **Consumo API**: Configura tu 'apiKey' directamente en el archivo `application.properties` o agregala como variable de entornno en tu IDE.
+1. ### Descarga la librería Gson:
+
+   - Ve al sitio oficial de [Gson](https://github.com/google/gson) o descárgala directamente desde el siguiente enlace:  
+     [Gson JAR](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar).
+
+   - Coloca el archivo `gson-2.8.9.jar` en un directorio accesible, preferiblemente dentro de una carpeta llamada `libs` en el proyecto.
+
+2. ### Agrega la librería Gson como dependencia:
+
+   - En tu IDE (como IntelliJ IDEA o Eclipse), sigue estos pasos:
+     - Haz clic derecho en el proyecto.
+     - Selecciona **"Agregar Módulo de Dependencias"** o **"Add Library"**.
+     - Busca y selecciona el archivo `gson-2.8.9.jar`.
+
+3. ### Consumo API:
+
+   - Configura tu 'apiKey' directamente en el archivo `application.properties` o agregala como variable de entornno en tu IDE.
 
    ```properties
-   java.security.apikey=${API_KEY}
+     java.security.apikey=${API_KEY}
    ```
 
 ## Uso
