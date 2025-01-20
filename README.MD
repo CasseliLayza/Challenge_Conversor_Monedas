@@ -61,7 +61,7 @@ java main.java.com.backend.challengeconversormonedas.application.ChallengeConver
 
 ### Menú de opciones:
 
-```javascript
+```java
 *****************************************************
 Sea bienbenido/a al Conversor de Monedas =]
 
