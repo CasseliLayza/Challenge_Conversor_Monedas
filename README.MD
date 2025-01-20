@@ -42,7 +42,7 @@ El programa ofrece un menú interactivo donde el usuario puede seleccionar entre
 git clone https://github.com/CasseliLayza/Challenge_Conversor_Monedas.git
 ```
 
-## Configuración del Proyecto:
+## Configuración del Proyecto
 
 1. ### Descarga la librería Gson:
 
