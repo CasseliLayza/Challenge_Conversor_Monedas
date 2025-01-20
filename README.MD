@@ -83,7 +83,7 @@ Sea bienbenido/a al Conversor de Monedas =]
 
 ## Estructura del Proyecto
 
-```java
+```javascript
 ├── src
 │   └── main
 │       ├── java
@@ -175,15 +175,6 @@ Sea bienbenido/a al Conversor de Monedas =]
 
 - Licencia [LICENSE](LICENSE)
 
-## Derechos Reservados
-
-- Sobre los derechos reservados si es aplicable.
-
-  ```markdown
-  © 2024 Casseli L CodeCloudNet. Todos los derechos reservados.  
-  Este proyecto está protegido por las leyes de derechos de autor y no puede ser reproducido, distribuido ni utilizado sin autorización previa.
-  ```
-
 ## Créditos
 
 - Desarrollado como parte del desafío de especialización **Java Backend Developer** by [**Caseli Layza**](mailto:casseli.layza@gmail.com).
@@ -191,13 +182,20 @@ Sea bienbenido/a al Conversor de Monedas =]
 
 - 📧 **Correo:** [Caseli Layza](mailto:casseli.layza@gmail.com)
 
-_**¡Gracias por revisar este proyecto!.. Powered by Casse💖**_ 😊
+  ```go
+    Este archivo `README.md` contiene toda la información necesaria sobre el proyecto, desde la descripción hasta los pasos para instalar, ejecutar y contribuir.
+  ```
 
-```go
+  _**¡Gracias por revisar este proyecto!.. Powered by Casse💖**_ 😊
 
-Este archivo `README.md` contiene toda la información necesaria sobre el proyecto, desde la descripción hasta los pasos para instalar, ejecutar y contribuir.
+### Derechos Reservados
 
-```
+- Sobre los derechos reservados si es aplicable.
+
+  ```markdown
+  © 2024 Casseli L CodeCloudNet. Todos los derechos reservados.  
+  Este proyecto está protegido por las leyes de derechos de autor y no puede ser reproducido, distribuido ni utilizado sin autorización previa.
+  ```
 
 <div style="text-align: rigt;">
     <img src="src/main/resources/asset/img/logoConversor.webp" width="300" height="300">
