@@ -61,7 +61,7 @@ java main.java.com.backend.challengeconversormonedas.application.ChallengeConver
 
 ### Menú de opciones:
 
-```css
+```javascript
 *****************************************************
 Sea bienbenido/a al Conversor de Monedas =]
 
@@ -186,7 +186,7 @@ Sea bienbenido/a al Conversor de Monedas =]
     Este archivo `README.md` contiene toda la información necesaria sobre el proyecto, desde la descripción hasta los pasos para instalar, ejecutar y contribuir.
   ```
 
-  _**¡Gracias por revisar este proyecto!.. Powered by Casse💖**_ 😊
+  _**¡Gracias por revisar este proyecto!... Powered by Casse 💖💚🔥💪😊...!!**_
 
 ### Derechos Reservados
 
